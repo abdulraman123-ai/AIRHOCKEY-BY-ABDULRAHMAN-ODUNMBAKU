@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+}
+
+canvas {
+    display: block;
+}
+
+.controls {
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.controls.left { left: 20px; }
+.controls.right { right: 20px; }
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 50%;
+    border: none;
+}
+.top-ui {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+}
+
+.top-ui button {
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: none;
+}
